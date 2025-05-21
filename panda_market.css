@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    word-break: keep-all;
+    font-family: Pretendard, sans-serif;
+    
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  max-width: 1400px;   /* 최대 너비 제한 */
+  margin: 0 auto;      /* 양쪽 자동 여백 → 가운데 정렬 */
+  padding: 0 40px;     /* 안쪽 여백 */
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+#logo_panda {
+  height: 50px;
+  width: 50px;
+  padding-right: 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_login{
+    background-color: #3692FF;
+    font-size: 15px;
+    border: none;
+    padding: 0 40px;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.btn_login a{
+    color: #ffffff;
+}
+
+.home_section{
+    display: flex;
+    align-items: flex-end;
+    background-color: #CFE5FF;
+    width: 100%;
+    height: 540px;
+}
+
+.home_layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.home_img{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center
+}
+
+.home_img img{
+    width: 100%;
+    height: auto;
+}
+
+.home_text h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.btn_buy{
+    background-color: #3692FF;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    padding: 10px 70px;
+    border-radius: 50px;
+    height: 40px;
+}
+
+.btn_buy a{
+    color: #ffffff;
+}
+
+.about_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #ffffff;
+    margin: 50px 0;
+}
+
+.about_card {
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #FCFCFC;
+    max-width: 1050px;
+    border-radius: 10px;
+    gap: 40px;
+    padding: 0 20px;
+    margin: 50px 0;
+}
+
+.about_section1 img{
+    width: 600px;
+    height: auto;
+    position: relative;
+}
+
+.about1{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.label{
+    color: #3692FF;
+    font-weight: 1000;
+    font-size: 24px;
+    margin: 0;
+}
+.about1 h1{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.about1 p{
+    font-size: 25px;
+}
+
+.about2{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.about2 h1{
+    font-weight: 700;
+    font-size: 36px;
+    margin: 10px 0;
+    text-align: end;
+}
+
+.about2 p{
+    font-size: 25px;
+    text-align: end;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #CFE5FF;
+    padding-top: 100px;
+}
+
+article h1{
+    font-size: 40px;
+    color: #374151;
+    margin: 20px 0 0;
+}
+
+.panda_chat{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.panda_chat img{
+    width: 100%;
+    height: auto;
+}
+
+.home_footer{
+    background-color: #111827;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+    margin-top: 0;
+}
+
+.footer_sns{
+    gap: 10px;
+}
+
+.sns {
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.date{
+    color: #9ca3af;
+    margin: 0;
+}
+
+.footer_center a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_center{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn_buy, .btn_login, .footer_sns a, .footer_center a{
+    cursor: pointer;
+}
