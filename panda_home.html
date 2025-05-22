@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="panda_market.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="panda_home.css">
     <title>판다마켓</title>
     <link rel="icon" href="images/logo_panda.svg" type="image/svg+xml">
 </head>
@@ -16,18 +18,14 @@
                 <img id="logo_pandamarket" src="images/logo_pandamarket.svg" alt="판다마켓">
             </a>
         </div>
-        <button class="btn_login">
-            <a href="/login">로그인</a>
-        </button>
+        <a href="/login" class="btn_login">로그인</a>
     </header>
     </div>
     <section class="home_section">
         <div class="container home_layout">
             <div class="home_text">
                 <h1>일상의 모든 물건을<br>거래해 보세요</h1>
-                <button class="btn_buy">
-                    <a href="/items">구매하러 가기</a>
-                </button>
+                <a href="/items" class="btn_buy">구매하러 가기</a>
             </div>
             <div class="home_img">
                 <img src="images/home_top.svg" alt="구매하러가기판다">
@@ -66,7 +64,9 @@
             <img src="images/article_chat.svg" alt="판다채팅">
         </div>
     </article>
+    
     <footer class="home_footer">
+        <div class="home_footer_center">
         <p class="date">@codeit - 2024</p>
         <div class="footer_center">
             <a href="/privacy">Privacy Policy</a>
@@ -85,6 +85,7 @@
             <a href="https://www.instagram.com/" target="_blank">
                 <img class="sns" src="images/ic_instagram.png" alt="instagram">
             </a>
+        </div>
         </div>
     </footer>
 </body>

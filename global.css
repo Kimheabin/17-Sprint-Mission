@@ -1,0 +1,38 @@
+/* 사이트 전체에 공통으로 적용되는 스타일 */
+a{
+    text-decoration: none;
+}
+
+html{
+    font-size: clamp(14px, 1.5vw, 18px);
+    word-break: keep-all;
+    font-family: Pretendard, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  margin: 0;
+}

@@ -1,0 +1,6 @@
+/* 브라우저마다 다르게 설정되어 있는 기본 스타일을 제거 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

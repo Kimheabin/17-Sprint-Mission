@@ -1,35 +1,10 @@
-*{
-    box-sizing: border-box;
-}
-
-a{
-    text-decoration: none;
-}
-
-html{
-    word-break: keep-all;
-    font-family: Pretendard, sans-serif;
-    
-}
-
-body{
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-  max-width: 1400px;   /* 최대 너비 제한 */
-  margin: 0 auto;      /* 양쪽 자동 여백 → 가운데 정렬 */
-  padding: 0 40px;     /* 안쪽 여백 */
-}
-
 .nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     margin: 5px 0;
+}
+
+.btn_buy, .btn_login, .footer_sns a, .footer_center a{
+    cursor: pointer;
 }
 
 #logo_panda {
@@ -45,16 +20,16 @@ body{
 }
 
 .btn_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
     background-color: #3692FF;
     font-size: 15px;
     border: none;
     padding: 0 40px;
     border-radius: 10px;
     height: 40px;
-}
-
-.btn_login a{
-    color: #ffffff;
 }
 
 .home_section{
@@ -93,6 +68,10 @@ body{
 }
 
 .btn_buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
     background-color: #3692FF;
     font-size: 16px;
     text-align: center;
@@ -100,10 +79,6 @@ body{
     padding: 10px 70px;
     border-radius: 50px;
     height: 40px;
-}
-
-.btn_buy a{
-    color: #ffffff;
 }
 
 .about_section{
@@ -220,6 +195,18 @@ article h1{
     margin-top: 0;
 }
 
+.home_footer_center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
 .footer_sns{
     gap: 10px;
 }
@@ -245,8 +232,4 @@ article h1{
     display: flex;
     gap: 20px;
     align-items: center;
-}
-
-.btn_buy, .btn_login, .footer_sns a, .footer_center a{
-    cursor: pointer;
 }
