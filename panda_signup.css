@@ -1,0 +1,117 @@
+.pandalogin{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.logo_login{
+    width: auto;
+    height: 100px;
+    margin: 0 15px;
+}
+
+.logoM_login{
+    width: auto;
+    height: 60px;
+}
+
+.logo_link{
+    display: flex;
+    align-items: center;
+}
+
+.login_input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.login{
+    width: 700px;
+    height: auto;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+input{
+    background-color: #f3f4f6;
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+button{
+    background-color: var(--blue);
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.social_login{
+    background-color: #E6f2ff;
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    padding: 30px 30px;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.sns_login{
+    width: 110px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.google, .kakao{
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin: 15px;
+}
+
+.signup,
+.signup:visited,
+.signup:hover,
+.signup:active {
+  color: var(--blue);
+  text-decoration: underline;
+}

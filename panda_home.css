@@ -1,6 +1,19 @@
 .nav{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     align-items: center;
-    margin: 5px 0;
+    width: 100%;
+    padding: 10px 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    padding-top: 60px;
 }
 
 .btn_buy, .btn_login, .footer_sns a, .footer_center a{
@@ -19,12 +32,17 @@
     align-items: center;
 }
 
+.logo_link{
+    display: flex;
+    align-items: center;
+}
+
 .btn_login{
     display: flex;
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background-color: #3692FF;
+    background-color: var(--blue);
     font-size: 15px;
     border: none;
     padding: 0 40px;
@@ -72,7 +90,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    background-color: #3692FF;
+    background-color: var(--blue);
     font-size: 16px;
     text-align: center;
     border: none;
@@ -121,7 +139,7 @@
 }
 
 .label{
-    color: #3692FF;
+    color: var(--blue);
     font-weight: 1000;
     font-size: 24px;
     margin: 0;
