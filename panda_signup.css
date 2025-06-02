@@ -26,6 +26,22 @@
     align-items: center;
 }
 
+.password_wrapper{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.ic_eye_open, .ic_eye_close {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+}
+
 .login_input{
     display: flex;
     flex-direction: column;

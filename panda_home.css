@@ -9,7 +9,17 @@
     padding: 10px 20px;
     height: auto;
     display: flex;
+    justify-content: center;
+}
+
+.nav_inner{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 body{
