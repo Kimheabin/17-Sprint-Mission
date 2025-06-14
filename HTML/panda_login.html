@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/logo_panda.svg" type="image/svg+xml">
+    <!-- CSS 경로 -->
+    <link rel="stylesheet" href="../CSS/reset.css"> <!-- 가장 먼저 -->
+    <link rel="stylesheet" href="../CSS/global.css"> <!-- 다음 -->
+    <link rel="stylesheet" href="../CSS/panda_login.css"> <!-- 가장 마지막 -->
+    <link rel="stylesheet" href="../CSS/palette.css">
+    <!-- JS 경로 -->
+    <script src="../JS/panda_login.js" defer></script> <!-- defer : HTML 요소를 JS가 안전하게 조작 가능하게 함 -->
+    <title>로그인</title>
+</head>
+<body>
+    <div class="container pandalogin">
+        <header class="logo">
+            <a class="logo_link" href="../HTML/panda_home.html">
+                <img class="logo_login" src="../images/logo_panda.svg" alt="판다로고">
+                <img class="logoM_login" src="../images/logo_pandamarket.svg" alt="판다마켓">
+            </a>
+        </header>
+        <section class="login_input">
+            <form class="login">
+                <label for="username">이메일</label>
+                <input id="username" name="username" type="email" required>
+                <!-- required 비어 있을 경우 브라우저에서 기본적인 유효성 검사를 해줌 -->
+                
+                <label for="password">비밀번호</label>
+                <div class="password_wrapper">
+                    <input id="password" name="password" type="password" required>
+                    <img id="ic_eye_open" src="../images/ic_eyes_open.png" class="ic_eye_open" alt="비밀번호 보기">
+                    <img id="ic_eye_close" src="../images/ic_eyes_close.png" class="ic_eye_close" alt="비밀번호 닫기">
+                </div>
+                <button type="submit">로그인</button>
+            </form>
+            <div class="social_login">
+                <span>간편 로그인하기</span>
+                <div class="sns_login">
+                    <a href="https://www.google.com/">
+                        <img class="google" src="../images/ic_google.png" alt="구글 아이콘">
+                    </a>
+                    <a href="https://www.kakaocorp.com/page/">
+                        <img class="kakao" src="../images/ic_kakao.png" alt="카카오 아이콘">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <span class="footer_span">판다마켓이 처음이신가요? </span>
+            <a class="signup" href="../HTML/panda_signup.html"> 회원가입</a>
+        </footer>
+    </div>
+</body>
+</html>

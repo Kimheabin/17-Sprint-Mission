@@ -1,3 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+}
+
 .nav{
     background-color: #ffffff;
     position: fixed;
@@ -46,11 +56,6 @@
     margin-right: 16px;
      margin-left: 5px;
   }
-}
-
-
-body{
-    padding-top: 60px;
 }
 
 .btn_buy, .btn_login, .footer_sns a, .footer_center a{
